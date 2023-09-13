@@ -8,7 +8,7 @@ public class lista1q8 {
         Random rand = new Random();
 
         for (int i = 0; i < quantidade; i++) {
-            int numeroAleatorio = rand.nextInt(10) + 1; 
+            int numeroAleatorio = rand.nextInt(20) + 1; 
 
             if (numeroAleatorio % 2 == 0) {
                 par[i] = numeroAleatorio;
